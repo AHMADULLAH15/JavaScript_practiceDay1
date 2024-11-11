@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Even Check</title>
+</head>
+<body>
+    <h1>Please Enter a Number</h1>
+    <input type="number" id="num" />
+    <button onclick="check()">Check</button>
+
+    <script>
+        function check() {
+            var num = document.getElementById("num").value;
+            if(num %2 == 0)
+        {
+            console.log("This is a Even Number :",num)
+        }
+        else
+        {
+            console.log("This is a Odd Number : ",num)
+        }
+        }
+    </script>
+</body>
+</html>
